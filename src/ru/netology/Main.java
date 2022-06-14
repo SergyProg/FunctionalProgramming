@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         Function<String> valueConverter = x -> {
             return Arrays.stream(x.split(" "));
-        };q
+        };
 
         String phrase;
 
